@@ -1,4 +1,4 @@
-package Runners;
+package com.clariter.Runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;

@@ -1,4 +1,4 @@
-package Runners;
+package com.clariter.Runners;
 
 import io.cucumber.junit.Cucumber;
 
@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/cucumber.json",
                 "html:target/default-html-reports",
                 "rerun:target/rerun.txt"},
-        features = "src/test/resources/features/Login.feature",
-        glue = "java/Step_Definitions",
+        features = "src/test/resources/features",
+        glue = "com/clariter/Step_Definitions",
         dryRun = false
 
 )

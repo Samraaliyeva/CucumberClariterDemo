@@ -1,6 +1,6 @@
-package Step_Definitions;
+package com.clariter.Step_Definitions;
 
-import Utilities.Driver;
+import com.clariter.Utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

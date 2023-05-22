@@ -1,4 +1,4 @@
-package Utilities;
+package com.clariter.Utilities;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
